@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marksheet</title>
+    <link rel="stylesheet" href="Marksheet.css">
+    </head>
+<body>
+    <nav>
+        <div class="logo">MarkSheet</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#marks">Marks</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home" class="container">
+        <h1>Student Marksheet Portal</h1>
+    </section>
+    
+    <section id="marks" class="container">
+        <h2>Student Marksheet</h2>
+        <table>
+            <tr>
+                <th>Student Name</th>
+                <th>Roll Number</th>
+                <th>Math</th>
+                <th>Science</th>
+                <th>English</th>
+                <th>Total Marks</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td><b>Will Carry</b></td>
+                <td>101</td>
+                <td>95</td>
+                <td>90</td>
+                <td>88</td>
+                <td>273</td>
+                <td>91%</td>
+            </tr>
+            <tr>
+                <td><b>Jane Smith</b></td>
+                <td>102</td>
+                <td>85</td>
+                <td>92</td>
+                <td>89</td>
+                <td>266</td>
+                <td>88.67%</td>
+            </tr>
+            <tr>
+                <td><b>Matilda Austen</b></td>
+                <td>100</td>
+                <td>85</td>
+                <td>82</td>
+                <td>90</td>
+                <td>206</td>
+                <td>80.37%</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contact" class="container">
+        <h3>For any queries Contact Us</h3>
+        <p>Email: support@marksheet.com</p>
+    </section>
+    
+    <script>
+        window.addEventListener("scroll", function () {
+            document.querySelector("nav").classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+table{
+  width: 50%;
+} 
+title {
+  text-align: center;
+  text-decoration: double;
+}
+img {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  z-index: -1;
+}
+
+th, td {
+    border:3px solid black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  title{
+    text-align: center;
+  }

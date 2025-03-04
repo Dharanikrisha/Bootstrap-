@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timetable</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      background-color: #A1EEBD;
+      margin: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    img {
+      width: 8%;
+      height: 2%;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+    table {
+      width: 90%;
+      border-collapse: collapse;
+      margin: auto;
+      background: #E5E1DA;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      border: 1px solid #F1F0E8;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #F6D6D6;
+      color: black;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+      transform: scale(1.02);
+      transition: all 0.2s ease-in-out;
+    }
+    th[rowspan] {
+      background-color: #7BD3EA ;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="background-color: #9AA6B2;">TIME TABLE</h1>
+  <marquee><img src="ku.jpg" alt="Logo"></marquee>
+  <table>
+    <tr>
+      <th>DAY</th>
+      <th>LECTURE 1</th>
+      <th>LECTURE 2</th>
+      <th rowspan="6">LUNCH BREAK</th>
+      <th>LECTURE 3</th>
+      <th>LECTURE 4</th>
+      <th>LECTURE 5</th>
+      <th>LECTURE 6</th>
+    </tr>
+    <tr><td><b>MONDAY</b></td><td>MACHINE LEARNING</td><td>MACHINE LEARNING</td><td>WEB TECH</td><td>WEB TECH</td><td>OPERATING SYSTEM</td><td>JAVA</td></tr>
+    <tr><td><b>TUESDAY</b></td><td>JAVA</td><td>CHAMBER DISCUSSION</td><td>LIBRARY</td><td>WEB TECH</td><td>JAVA</td><td>JAVA</td></tr>
+    <tr><td><b>WEDNESDAY</b></td><td>OPERATING SYSTEM</td><td>CHAMBER DISCUSSION</td><td>WEB TECH</td><td>SOCIAL MEDIA</td><td>APTITUDE</td><td>MACHINE LEARNING</td></tr>
+    <tr><td><b>THURSDAY</b></td><td>OPERATING SYSTEM</td><td>CHAMBER DISCUSSION</td><td>WEB TECH</td><td>MACHINE LEARNING</td><td>SOCIAL MEDIA</td><td>JAVA</td></tr>
+    <tr><td><b>FRIDAY</b></td><td>CHAMBER DISCUSSION</td><td>MACHINE LEARNING</td><td>SOCIAL MEDIA</td><td>APTITUDE</td><td>LIBRARY</td><td>MENTORING</td></tr>
+  </table>
+</body>
+</html>
